@@ -85,7 +85,7 @@ pod 'FZRoutable'
 ```
 
 ## 路由处理逻辑
-<img src="https://github.com/wufuzeng/FZRoutable/blob/master/Screenshots/FZRoutable%E5%A4%84%E7%90%86%E6%9C%BA%E5%88%B6.png" title="" float=left width = '1000px'>
+<img src="https://github.com/wufuzeng/FZRoutable/blob/master/Screenshots/FZRouter%E5%A4%84%E7%90%86%E6%9C%BA%E5%88%B6.png" title="" float=left width = '1000px'>
 
 ## 作者
 
