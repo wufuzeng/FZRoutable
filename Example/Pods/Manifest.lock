@@ -1,0 +1,18 @@
+PODS:
+  - FZRoutable (0.0.1):
+    - FZRoutable/Core (= 0.0.1)
+  - FZRoutable/Core (0.0.1)
+
+DEPENDENCIES:
+  - FZRoutable (from `../`)
+
+EXTERNAL SOURCES:
+  FZRoutable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZRoutable: 8efd9fb781f84d57092e132f23d6b76f166fc52c
+
+PODFILE CHECKSUM: 6cee9523adcb3a82f94dff274cb342d0d8acfcc6
+
+COCOAPODS: 1.7.4

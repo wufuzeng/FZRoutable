@@ -20,6 +20,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		60631E1322E1634A0097EB43 /* FZFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60631E0622E163490097EB43 /* FZFiveViewController.m */; };
+		60631E1422E1634A0097EB43 /* FZTestFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60631E0922E163490097EB43 /* FZTestFourViewController.m */; };
+		60631E1522E1634A0097EB43 /* FZTestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60631E0D22E163490097EB43 /* FZTestOneViewController.m */; };
+		60631E1622E1634A0097EB43 /* FZTestThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60631E0F22E163490097EB43 /* FZTestThreeViewController.m */; };
+		60631E1722E1634A0097EB43 /* FZTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60631E1022E163490097EB43 /* FZTestTwoViewController.m */; };
+		60631E1822E1634A0097EB43 /* FZSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60631E1122E1634A0097EB43 /* FZSixViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BA048589265286AB7DB85246 /* Pods_FZRoutable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAC7FAAC65D8DBE3AA9B6A4 /* Pods_FZRoutable_Example.framework */; };
@@ -39,7 +45,7 @@
 /* Begin PBXFileReference section */
 		1FB6CB679EB82E98D73F48DA /* Pods_FZRoutable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZRoutable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B727E344A121FF213286223 /* Pods-FZRoutable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZRoutable_Example.release.xcconfig"; path = "Target Support Files/Pods-FZRoutable_Example/Pods-FZRoutable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57511CB52197298B218A0EF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		57511CB52197298B218A0EF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZRoutable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZRoutable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,13 +64,26 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		60631E0622E163490097EB43 /* FZFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZFiveViewController.m; sourceTree = "<group>"; };
+		60631E0722E163490097EB43 /* FZFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZFiveViewController.h; sourceTree = "<group>"; };
+		60631E0822E163490097EB43 /* FZTestFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTestFourViewController.h; sourceTree = "<group>"; };
+		60631E0922E163490097EB43 /* FZTestFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTestFourViewController.m; sourceTree = "<group>"; };
+		60631E0A22E163490097EB43 /* FZTestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTestTwoViewController.h; sourceTree = "<group>"; };
+		60631E0B22E163490097EB43 /* FZRoutable-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FZRoutable-Prefix.pch"; path = "../../../../FZRoutable/Example/FZRoutable/FZRoutable-Prefix.pch"; sourceTree = "<group>"; };
+		60631E0C22E163490097EB43 /* FZTestOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTestOneViewController.h; sourceTree = "<group>"; };
+		60631E0D22E163490097EB43 /* FZTestOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTestOneViewController.m; sourceTree = "<group>"; };
+		60631E0E22E163490097EB43 /* FZTestThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTestThreeViewController.h; sourceTree = "<group>"; };
+		60631E0F22E163490097EB43 /* FZTestThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTestThreeViewController.m; sourceTree = "<group>"; };
+		60631E1022E163490097EB43 /* FZTestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTestTwoViewController.m; sourceTree = "<group>"; };
+		60631E1122E1634A0097EB43 /* FZSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZSixViewController.m; sourceTree = "<group>"; };
+		60631E1222E1634A0097EB43 /* FZSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZSixViewController.h; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6BAC7FAAC65D8DBE3AA9B6A4 /* Pods_FZRoutable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZRoutable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8124171D63B025B0221FDF49 /* FZRoutable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZRoutable.podspec; path = ../FZRoutable.podspec; sourceTree = "<group>"; };
+		8124171D63B025B0221FDF49 /* FZRoutable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZRoutable.podspec; path = ../FZRoutable.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABEEE966C16F785699C5AFA8 /* Pods-FZRoutable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZRoutable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FZRoutable_Tests/Pods-FZRoutable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E08F0378C00049DFCBB926C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E08F0378C00049DFCBB926C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB777EB852A4863EBA83C1BE /* Pods-FZRoutable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZRoutable_Example.debug.xcconfig"; path = "Target Support Files/Pods-FZRoutable_Example/Pods-FZRoutable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD6EA0366EFB5066E519033C /* Pods-FZRoutable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZRoutable_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZRoutable_Tests/Pods-FZRoutable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +156,19 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FZViewController.h */,
 				6003F5A6195388D20070C39A /* FZViewController.m */,
+				60631E0722E163490097EB43 /* FZFiveViewController.h */,
+				60631E0622E163490097EB43 /* FZFiveViewController.m */,
+				60631E0B22E163490097EB43 /* FZRoutable-Prefix.pch */,
+				60631E1222E1634A0097EB43 /* FZSixViewController.h */,
+				60631E1122E1634A0097EB43 /* FZSixViewController.m */,
+				60631E0822E163490097EB43 /* FZTestFourViewController.h */,
+				60631E0922E163490097EB43 /* FZTestFourViewController.m */,
+				60631E0C22E163490097EB43 /* FZTestOneViewController.h */,
+				60631E0D22E163490097EB43 /* FZTestOneViewController.m */,
+				60631E0E22E163490097EB43 /* FZTestThreeViewController.h */,
+				60631E0F22E163490097EB43 /* FZTestThreeViewController.m */,
+				60631E0A22E163490097EB43 /* FZTestTwoViewController.h */,
+				60631E1022E163490097EB43 /* FZTestTwoViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +225,6 @@
 				ABEEE966C16F785699C5AFA8 /* Pods-FZRoutable_Tests.debug.xcconfig */,
 				FD6EA0366EFB5066E519033C /* Pods-FZRoutable_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +279,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = E638HXYY46;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +292,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +399,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60631E1822E1634A0097EB43 /* FZSixViewController.m in Sources */,
 				6003F59E195388D20070C39A /* FZAppDelegate.m in Sources */,
+				60631E1422E1634A0097EB43 /* FZTestFourViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* FZViewController.m in Sources */,
+				60631E1322E1634A0097EB43 /* FZFiveViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				60631E1722E1634A0097EB43 /* FZTestTwoViewController.m in Sources */,
+				60631E1622E1634A0097EB43 /* FZTestThreeViewController.m in Sources */,
+				60631E1522E1634A0097EB43 /* FZTestOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +535,7 @@
 			baseConfigurationReference = FB777EB852A4863EBA83C1BE /* Pods-FZRoutable_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E638HXYY46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZRoutable/FZRoutable-Prefix.pch";
 				INFOPLIST_FILE = "FZRoutable/FZRoutable-Info.plist";
@@ -510,6 +552,7 @@
 			baseConfigurationReference = 4B727E344A121FF213286223 /* Pods-FZRoutable_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E638HXYY46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZRoutable/FZRoutable-Prefix.pch";
 				INFOPLIST_FILE = "FZRoutable/FZRoutable-Info.plist";

@@ -1,0 +1,6 @@
+framework module Pods_FZRoutable_Tests {
+  umbrella header "Pods-FZRoutable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
